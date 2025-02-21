@@ -1,0 +1,42 @@
+.monthly-subscription{
+  background-color: var(--Cyan);
+  padding: 12px 24px 24px;
+  height: 230px;
+  color: var(--LightGray);
+}
+.monthly-subscription h2{
+  font-size: 1em;
+  margin-bottom: 18px;
+}
+.price{
+  font-size: 2em;
+  font-weight: 700;
+}
+.monthly-subscription p{
+  margin-top: 8px;
+}
+button{
+  margin-top: 14px;
+  background-color: var(--BrightYellow);
+  border-radius: 5px;
+  width: 100%;
+  height: 48px;
+  border-style: none;
+  color: var(--LightGray);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/*----------Desktop----------*/
+@media only screen and (min-width: 680px){
+  .monthly-subscription{
+    padding: 20px 40px 40px;
+    height: 258px;
+  }
+  .monthly-subscription h2{
+    font-size: 1.1em;
+  }
+  .monthly-subscription p{
+    font-size: 0.95em;
+  }
+}
