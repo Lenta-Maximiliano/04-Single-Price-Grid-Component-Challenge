@@ -16,7 +16,7 @@ Esta es una solución para el desafío [Single Price Grid Component de Frontend 
 ## Descripción General
 
 ### Enlaces
-- **URL del Sitio en Vivo**: [Ver sitio aquí](--------)
+- **URL del Sitio en Vivo**: [Ver sitio aquí](https://04-single-price-grid-challenge.netlify.app/)
 
 ---
 
@@ -45,16 +45,18 @@ En este proyecto, reforcé los siguientes conceptos:
 Aquí tienes un ejemplo de cómo modularicé un componente en React:
 
 ```jsx
+
 export default function SubscriptionSection() {
   return (
-    <section className="monthly-subscription">
-      <h2>Monthly Subscription</h2>
-      <span className="price">$29</span> <span className="payment">per month</span>
-      <p>Full access for less than $1 a day</p>
-      <button>Sign Up</button>
+    <section className="subscription">
+      <h2 className="subscription__title">Monthly Subscription</h2>
+      <span className="subscription__amount">$29</span> <span className="subscription__period">per month</span>
+      <p className="subscription__description">Full access for less than $1 a day</p>
+      <button className="subscription__button">Sign Up</button>
   </section>
   );
 }
+  
   
 ```
 
