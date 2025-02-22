@@ -19,10 +19,10 @@ body{
 }
 
 /*----------Mobile----------*/
-.app-container{
+.app{
   width: 100%;
 }
-.main-container{
+.app__main{
   background-color: white;
   width: 313px;
   height: 730px;
@@ -34,7 +34,7 @@ body{
 
 /*----------Desktop----------*/
 @media only screen and (min-width: 680px){
-  .main-container{
+  .app__main{
     width: 636px;
     height: 476px;
     display: grid;

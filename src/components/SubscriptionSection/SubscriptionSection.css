@@ -1,21 +1,21 @@
-.monthly-subscription{
+.subscription{
   background-color: var(--Cyan);
   padding: 12px 24px 24px;
   height: 230px;
   color: var(--LightGray);
 }
-.monthly-subscription h2{
+.subscription__title{
   font-size: 1em;
   margin-bottom: 18px;
 }
-.price{
+.subscription__amount{
   font-size: 2em;
   font-weight: 700;
 }
-.monthly-subscription p{
+.subscription__description{
   margin-top: 8px;
 }
-button{
+.subscription__button{
   margin-top: 14px;
   background-color: var(--BrightYellow);
   border-radius: 5px;
@@ -29,14 +29,14 @@ button{
 
 /*----------Desktop----------*/
 @media only screen and (min-width: 680px){
-  .monthly-subscription{
+  .subscription{
     padding: 20px 40px 40px;
     height: 258px;
   }
-  .monthly-subscription h2{
+  .subscription__title{
     font-size: 1.1em;
   }
-  .monthly-subscription p{
+  .subscription__description{
     font-size: 0.95em;
   }
 }

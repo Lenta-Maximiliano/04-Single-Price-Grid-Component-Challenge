@@ -7,8 +7,8 @@ import './App.css'
 function App() {
 
   return (
-    <div className='app-container'>
-      <main className='main-container'>
+    <div className='app'>
+      <main className='app__main'>
         <CommunitySection />
         <SubscriptionSection />
         <WhyUsSection />

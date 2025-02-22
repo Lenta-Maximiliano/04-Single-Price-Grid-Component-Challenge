@@ -2,5 +2,10 @@
 .footer{
   color: black;
 }
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.footer__attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+.footer__link { 
+  color: hsl(228, 45%, 44%); 
+}
